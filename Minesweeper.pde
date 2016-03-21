@@ -1,5 +1,3 @@
-
-
 import de.bezier.guido.*;
 //Declare and initialize NUM_ROWS and NUM_COLS = 20
 private MSButton[][] buttons; //2d array of minesweeper buttons
@@ -110,6 +108,3 @@ public class MSButton
         return numBombs;
     }
 }
-
-
-
