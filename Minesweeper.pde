@@ -12,8 +12,6 @@ void setup ()
     
     // make the manager
     Interactive.make( this );
-    
-    
     buttons = new MSButton[NUM_ROWS][NUM_COLS];
     for(int i = 0; i<NUM_ROWS; i++)
     {
@@ -176,7 +174,6 @@ public class MSButton
             fill( 200 );
         else 
             fill( 100 );
-
         rect(x, y, width, height);
         fill(0);
         text(label,x+width/2,y+height/2);
@@ -230,7 +227,7 @@ public class MSButton
 
 public void keyPressed()
 {
-    if(keyCode == 32)
+    if(key == 'r')
     {
         for(int i = 0; i<NUM_ROWS; i++)
         {
